@@ -82,7 +82,7 @@ RUN git clone https://github.com/warmcat/libwebsockets.git libwebsockets
 RUN cd libwebsockets && cmake . && make && make install
 RUN ldconfig
 
-RUN git clone https://github.com/BroadbandForum/obuspa.git obuspa
+COPY . obuspa
 RUN cd obuspa && autoreconf --force --install && ./configure && make install
 
 FROM debian:stable AS exec-stage
