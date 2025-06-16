@@ -164,9 +164,9 @@
 // Various defines for constant parameters in Device.DeviceInfo
 // These defines are only used if USP Agent core implements DeviceInfo (see REMOVE_DEVICE_INFO above)
 // These defines MUST be modified by the vendor
-#define VENDOR_PRODUCT_CLASS "USP Agent"   // Configures the value of Device.DeviceInfo.ProductClass
+#define VENDOR_PRODUCT_CLASS "OBUSPA"   // Configures the value of Device.DeviceInfo.ProductClass
 #define VENDOR_MANUFACTURER  "Manufacturer"   // Configures the value of Device.DeviceInfo.Manufacturer
-#define VENDOR_MODEL_NAME    "USP Agent"   // Configures the value of Device.DeviceInfo.ModelName
+#define VENDOR_MODEL_NAME    "OBUSPA"   // Configures the value of Device.DeviceInfo.ModelName
 
 // URI of data model implemented by USP Agent
 #define BBF_DATA_MODEL_URI "urn:broadband-forum-org:tr-181-2-12-0"
